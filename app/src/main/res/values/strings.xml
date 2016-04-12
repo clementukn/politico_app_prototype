@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">POLITICO</string>
+    <string name="action_settings">Settings</string>
+    <string name="connection_error">Unable to retrieve data</string>
+    <string name="xml_error">RSS stream parsing error</string>
+    <string name="title_activity_single_summary">Article Summary</string>
+</resources>

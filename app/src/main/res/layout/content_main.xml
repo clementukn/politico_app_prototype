@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.clement.politico.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView android:id="@+id/textview_congress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36px"
+        android:textStyle="bold"
+        android:paddingLeft="15dip"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="Congress News" />
+
+    <ListView android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>
