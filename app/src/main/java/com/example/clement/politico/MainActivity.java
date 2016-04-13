@@ -96,8 +96,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void refreshListView(List<ArticleItem> articles) {
         // add articles' title into ListView
-        /*ArrayAdapter<ArticleItem> adapter = new ArrayAdapter<ArticleItem>(MainActivity.this,
-                android.R.layout.simple_list_item_1,articles);*/
         ArrayAdapter<ArticleItem> adapter = new CustomArrayAdapter(this , R.layout.custom_list , articles);
         listView.setAdapter(adapter);
 

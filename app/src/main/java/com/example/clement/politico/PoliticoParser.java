@@ -54,7 +54,8 @@ public class PoliticoParser {
                 if (article.title != null && article.link != null) {
                     articles.add(article);
                 }
-            } else {
+            }
+            else {
                 skipXml(parser);
             }
         }
