@@ -23,4 +23,3 @@ The stream of the app is as follow:
 * improve quality of content by specifically training a NLP machine learning with political contexts
 
 
-##Screenshot
